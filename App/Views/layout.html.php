@@ -8,14 +8,14 @@
         <meta name = " author " content = "Gaëtan Perrot" >
         <meta name = " keywords " content = "<?= htmlentities($keywords) ?>">
         <meta name = " description " content = "<?= htmlentities($description)?>">
-        <link href="/Resources/Bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
         <?php if(isset($additionnalCSS)) : ?>
             <link href="<?= htmlentities($additionnalCSS) ?>" rel="stylesheet">
         <?php endif;?>
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="icon" href="/Resources/Image/Favicon/favicon.ico" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="/Resources/Bootstrap/js/bootstrap.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
         <?php if(isset($additionnalJS)) : ?>
             <script src="<?= htmlentities($additionnalJS) ?>"></script>
         <?php endif;?>
