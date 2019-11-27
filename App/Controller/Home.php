@@ -15,8 +15,4 @@ class Home extends \PoireauFramework\Arch\Controller{
     public function indexAction(){
         
     }
-    
-    public function faqAction(){
-        
-    }
 }
